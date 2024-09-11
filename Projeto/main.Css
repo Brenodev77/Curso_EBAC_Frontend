@@ -1,0 +1,118 @@
+* {
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 16px 0;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+header {
+        font-family: "Nerko One", cursive;
+        font-weight: 700;
+        font-style: normal;      
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+h2,
+h3,
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.artigos img {
+    height: 620px;
+    width: 720px;
+}
+
+
+
+.contact input {
+    display: block;
+    background-color: black;
+    color: #fff;
+}
+
+form input,
+form button,
+textarea {
+        display: block;
+        width: 320px;
+        margin-bottom: 8px;
+        padding: 8px;
+}
+
+footer {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: black;
+    color: #fff;
+}
+
+.contactsocial img {
+    height: 24px;
+    margin-top: 16px;
+}
+
+.contactsocial li {
+    display: inline;
+    margin-right: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.contactsocial a {
+    text-decoration: none;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+    background-color: black;
+    color: #fff;
+}
+
+form button {
+    background-color: black;
+    color: #fff;
+}
+
